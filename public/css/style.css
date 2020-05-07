@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+body {
+    background-color: #f5f5dc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+nav {
+    display: block;
+    height: 150px;
+    color: white;
+}
+
+.row1, .row2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.userPic {
+    width: 50vw;
+    max-width: 600px;
+}
+
+.greeting {
+    font-size: 5vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: url('../images/bpo.jpg');
+    color: transparent;
+    -webkit-background-clip: text;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.userDetails h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.userDetails span {
+    margin: 0;
+    display: inline-block;
+}
+
+.userDetails {
+    background-color: #00A7DB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+    flex-grow: 2;
+}
+
+.home {
+    background-color: #00C1EA;
+}
+
+.projects {
+    background-color: #94D401;
+}
+
+.contact {
+    background-color: #61B100;
+}
+
+.home, .projects, .contact {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    pointer-events: auto;
+}
+
+.home ion-icon, .projects ion-icon, .contact ion-icon {
+    font-size: 100px;
+}
